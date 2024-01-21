@@ -23,7 +23,6 @@ function App(){
         <Route path='/writenote' element={<WriteNote/>}></Route>
         <Route path='/readnote/:id' element={<ReadNote/>}></Route>
       </Routes>
-      <Footer/>
     </BrowserRouter>
   )
 }
