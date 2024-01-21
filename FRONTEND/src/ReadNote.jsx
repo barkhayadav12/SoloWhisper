@@ -9,7 +9,7 @@ const ReadNote = () => {
   const navigate = useNavigate();
   useEffect(() => {
     axios
-      .get("https://solowhisperr.vercel.app/readnote/" + id)
+      .get("https://solo-whisper.vercel.app/readnote/" + id)
       .then((result) => setStory(result.data))
       .catch((err) => console.log(err));
   });
